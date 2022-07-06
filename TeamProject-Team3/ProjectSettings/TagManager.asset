@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Spaceship1
   - Church Background
+  - LastOne-Transparent
   layers:
   - Default
   - TransparentFX
@@ -42,6 +43,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: LastOne-Transparent
+    uniqueID: 148596073
     locked: 0
   - name: Spaceship1
     uniqueID: 223868483
