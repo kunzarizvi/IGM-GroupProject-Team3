@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Spaceship1
+  - Church Background
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Spaceship1
+    uniqueID: 223868483
+    locked: 0
+  - name: Church Background
+    uniqueID: 2900249017
     locked: 0
