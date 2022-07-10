@@ -356,7 +356,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71
     y: 71
-    width: 95
+    width: 96.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -394,8 +394,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 302167313}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -542,7 +541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258
     y: 68
-    width: 96
+    width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -661,7 +660,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 433
     y: 67
-    width: 97
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -689,10 +688,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: 'You:  I stand up on shaky feet and I begin to check why I lost control
-    of the spaceship. I immediately discover the problem. I am out of fuel. '
+  storyText: ' I stand up on shaky feet and I begin to check why I lost control of
+    the spaceship. I immediately discover the problem. I am out of fuel. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1704099764}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -705,7 +704,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &302167315
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -717,11 +716,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'You: I try to find out what planet I have landed on from the monitor,
-    but it doesn''t work. Nothing on my spaceship seems to be working anymore. I
-    guess I have to find out where I am on my own.'
+  storyText: I try to find out what planet I have landed on from the monitor, but
+    it doesn't work. Nothing on my spaceship seems to be working anymore. I guess
+    I have to find out where I am on my own.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1704099764}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -746,10 +745,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: 'You:  I need to get fuel to make it back in time for the birth of my
-    daughter. '
+  storyText: ' I need to get fuel to make it back in time for the birth of my daughter. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1704099764}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
