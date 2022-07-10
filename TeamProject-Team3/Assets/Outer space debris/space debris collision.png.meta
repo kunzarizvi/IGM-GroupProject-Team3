@@ -1,13 +1,7 @@
 fileFormatVersion: 2
 guid: 1c62c4eaf171b4f0eb47b31124d20a6d
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -5019684511941688430
-    second: space debris collision_0
-  - first:
-      213: 8790309329445070473
-    second: space debris collision_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -47,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -81,85 +75,9 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: space debris collision_0
-      rect:
-        serializedVersion: 2
-        x: 1191
-        y: 626
-        width: 312
-        height: 185
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2938f25288f765ab0800000000000000
-      internalID: -5019684511941688430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: space debris collision_1
-      rect:
-        serializedVersion: 2
-        x: 1169
-        y: 608
-        width: 303
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 132.5, y: 67}
-        - {x: 145.5, y: 37}
-        - {x: 143.5, y: 1}
-        - {x: 131.5, y: -19}
-        - {x: 115.5, y: -35}
-        - {x: 102.5, y: -47}
-        - {x: 79.5, y: -62}
-        - {x: 57.5, y: 108}
-        - {x: 78.5, y: 98}
-        - {x: 113.5, y: 85}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 986206713c37df970800000000000000
-      internalID: 8790309329445070473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
