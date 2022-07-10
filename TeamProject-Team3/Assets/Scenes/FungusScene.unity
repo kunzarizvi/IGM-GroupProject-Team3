@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 302167313}
   - component: {fileID: 302167312}
   - component: {fileID: 302167311}
+  - component: {fileID: 302167314}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -353,7 +354,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72
     y: 69
-    width: 96.4
+    width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -394,7 +395,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 302167313}
   selectedCommands:
-  - {fileID: 302167311}
+  - {fileID: 302167314}
   variables: []
   description: 
   stepPause: 0
@@ -540,7 +541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258
     y: 68
-    width: 97.2
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -659,7 +660,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 432
     y: 67
-    width: 98
+    width: 97
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -669,7 +670,36 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 302167311}
+  - {fileID: 302167314}
   suppressAllAutoSelections: 0
+--- !u!114 &302167314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302167298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  storyText: 'Player: I stand up on shaky feet and I begin to check why I lost control
+    of the spaceship. I immediately discover the problem. I am out of fuel. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &310925637
 GameObject:
   m_ObjectHideFlags: 0
