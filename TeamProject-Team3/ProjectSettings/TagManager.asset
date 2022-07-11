@@ -7,6 +7,7 @@ TagManager:
   - Spaceship1
   - Church Background
   - LastOne-Transparent
+  - Barren Land
   layers:
   - Default
   - TransparentFX
@@ -55,4 +56,7 @@ TagManager:
     locked: 0
   - name: Church Background
     uniqueID: 2900249017
+    locked: 0
+  - name: Barren Land
+    uniqueID: 2944864119
     locked: 0
