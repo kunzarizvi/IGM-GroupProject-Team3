@@ -826,6 +826,10 @@ GameObject:
   - component: {fileID: 302167391}
   - component: {fileID: 302167398}
   - component: {fileID: 302167395}
+  - component: {fileID: 302167412}
+  - component: {fileID: 302167410}
+  - component: {fileID: 302167422}
+  - component: {fileID: 302167414}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -930,9 +934,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 302167301}
+  - {fileID: 302167413}
   selectedCommands:
-  - {fileID: 302167304}
+  - {fileID: 302167410}
   variables: []
   description: 
   stepPause: 0
@@ -3405,7 +3409,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &302167395
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3529,6 +3533,7 @@ MonoBehaviour:
   - {fileID: 302167407}
   - {fileID: 302167406}
   - {fileID: 302167391}
+  - {fileID: 302167412}
   - {fileID: 302167411}
   - {fileID: 302167416}
   - {fileID: 302167415}
@@ -3806,6 +3811,30 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &302167410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302167298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 0
+  spriteRenderer: {fileID: 1918858366}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 0}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &302167411
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3833,6 +3862,26 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &302167412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302167298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  indentLevel: 0
+  spriteRenderer: {fileID: 1918858366}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!114 &302167413
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3859,11 +3908,41 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 302167420}
+  - {fileID: 302167410}
   - {fileID: 302167395}
   - {fileID: 302167419}
+  - {fileID: 302167422}
+  - {fileID: 302167414}
   - {fileID: 302167418}
   - {fileID: 302167417}
   suppressAllAutoSelections: 0
+--- !u!114 &302167414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302167298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  storyText: 'More often we would be on our phones and less with other humans... '
+  description: 
+  character: {fileID: 144867701}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &302167415
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3989,9 +4068,7 @@ MonoBehaviour:
   itemId: 154
   indentLevel: 0
   storyText: 'This is a mobile phone. It''s now offline...but it was a communicating
-    device amongst other things. It''s sad to say this, but the making of these phones
-    started to effect the way we lived and how people saw each other. More often
-    we would be on our phones and less with other humans... '
+    device amongst other things. '
   description: 
   character: {fileID: 144867701}
   portrait: {fileID: 0}
@@ -4025,7 +4102,7 @@ MonoBehaviour:
   _targetColor:
     colorRef: {fileID: 0}
     colorVal: {r: 1, g: 1, b: 1, a: 0}
-  waitUntilFinished: 1
+  waitUntilFinished: 0
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &302167421
@@ -4055,6 +4132,34 @@ MonoBehaviour:
   commandList:
   - {fileID: 302167424}
   suppressAllAutoSelections: 0
+--- !u!114 &302167422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302167298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 174
+  indentLevel: 0
+  storyText: 'It''s sad to say this, but the making of these phones started to effect
+    the way we lived and how people saw each other. '
+  description: 
+  character: {fileID: 144867701}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &302167424
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7199,9 +7304,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4736fc793d5304fa5be7e11bcfb3fb8c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c9f8354989ec04e978a27ddfb0e219cd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7219,8 +7324,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918858365}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7799988, y: 0.10000038, z: 0}
-  m_LocalScale: {x: 0.9753, y: 0.9753, z: 0.9753}
+  m_LocalPosition: {x: -5.49, y: 0.28, z: 0}
+  m_LocalScale: {x: 2.145824, y: 2.3351696, z: 1.4781333}
   m_Children: []
   m_Father: {fileID: 2103345146}
   m_RootOrder: 1
