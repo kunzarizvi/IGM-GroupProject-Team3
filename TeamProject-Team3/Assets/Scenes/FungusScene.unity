@@ -1081,7 +1081,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -11
     y: 74
-    width: 96.14218
+    width: 94.64296
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1109,11 +1109,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2355.117, y: 118.751434}
+  scrollPos: {x: 226.96902, y: 632.9706}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.98824984
+  zoom: 0.27999935
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1121,9 +1121,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 302167421}
-  selectedCommands:
-  - {fileID: 302167463}
+  - {fileID: 302167459}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1219,7 +1218,7 @@ MonoBehaviour:
   itemId: 8
   indentLevel: 0
   storyText: 'I find it hard to open my eyes. The impact from the crash has my head
-    buzzing like it housed a thousand bees. '
+    buzzing like it''s housed a thousand bees. '
   description: 
   character: {fileID: 1704099764}
   portrait: {fileID: 0}
@@ -1269,7 +1268,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 124.68717
     y: 74
-    width: 97.7612
+    width: 96.42868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1389,7 +1388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276
     y: 74.113335
-    width: 98.57071
+    width: 96.42868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1423,7 +1422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: ' I stand up on shaky feet and I begin to check why I lost control of
+  storyText: 'I stand up on shakey feet and I begin to check why I lost control of
     the spaceship. I immediately discover the problem. I am out of fuel. '
   description: 
   character: {fileID: 1704099764}
@@ -1479,7 +1478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: ' I need to get fuel to make it back in time for the birth of my daughter. '
+  storyText: 'I need to get fuel to make it back in time for the birth of my daughter. '
   description: 
   character: {fileID: 1704099764}
   portrait: {fileID: 0}
@@ -1750,7 +1749,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1106.7391
     y: -44.102924
-    width: 106.66583
+    width: 105.35727
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1809,7 +1808,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1110.7858
     y: 164.74223
-    width: 108.28485
+    width: 107.14299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1904,7 +1903,7 @@ MonoBehaviour:
   itemId: 37
   indentLevel: 0
   storyText: I struggle to remove my legs from the trap but the trap only becomes
-    tight around me
+    tight around me.
   description: 
   character: {fileID: 1704099764}
   portrait: {fileID: 0}
@@ -1985,7 +1984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: '  I have not spoken to anyone in years so it is good to finally speak
+  storyText: 'I haven''t spoken to anyone in years so it''s good to finally speak
     to someone. '
   description: 
   character: {fileID: 144867701}
@@ -2015,7 +2014,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1403.409
     y: 68.56572
-    width: 130.95119
+    width: 128.57161
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2063,7 +2062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: I lost control of my spaceship and crashed here. I am in search of fuel
+  storyText: I lost control of my spaceship and crashed here. I'm in search of fuel
     and I have no intention of harming you.
   description: 
   character: {fileID: 1704099764}
@@ -2091,7 +2090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: My name is Sodiza, I am from the planet Ilitium
+  storyText: My name is Sodiza, I'm from the planet Ilitium.
   description: 
   character: {fileID: 1704099764}
   portrait: {fileID: 0}
@@ -2245,7 +2244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1617.863
     y: 50.158882
-    width: 108.28485
+    width: 107.14299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2331,7 +2330,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1793.3192
     y: 46.77797
-    width: 97.7612
+    width: 96.42868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2449,8 +2448,8 @@ MonoBehaviour:
   itemId: 51
   indentLevel: 0
   storyText: Some of them were in denial about the dangerous effects of what they
-    were doing, that when things finally became worse, it was too late to stop it
-    and lives were lost.
+    were doing, that when things finally became much worse, it was too late to stop
+    it and lives were lost.
   description: 
   character: {fileID: 144867701}
   portrait: {fileID: 0}
@@ -2532,8 +2531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: 'It''s quite a long story, but humans were the architect of their own
-    misfortunes. '
+  storyText: 'It''s quite a long story, but humans were the architect''s of their
+    own misfortunes. '
   description: 
   character: {fileID: 144867701}
   portrait: {fileID: 0}
@@ -2724,7 +2723,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 621.1531
     y: 74.38504
-    width: 98.57071
+    width: 96.42868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2754,7 +2753,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 439.61475
     y: 0.7641249
-    width: 109.09437
+    width: 107.14299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2990,7 +2989,7 @@ MonoBehaviour:
   itemId: 80
   indentLevel: 0
   storyText: 'I step out of my spaceship with wide eyes as I stare at the destruction
-    of what I assumed used to be a habitable planet. '
+    of what I assume used to be a habitable planet. '
   description: 
   character: {fileID: 1704099764}
   portrait: {fileID: 0}
@@ -3047,7 +3046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: Should I...?
+  storyText: Do I...?
   description: 
   character: {fileID: 1704099764}
   portrait: {fileID: 0}
@@ -3074,7 +3073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: 'I begin to roam around my surroundings and I stop when I see a human
+  storyText: 'I begin to roam around the surroundings and stop when I see a human
     girl searching the ruins for something.
 
 '
@@ -3131,7 +3130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 824.20355
     y: 69.96413
-    width: 97.7612
+    width: 96.42868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3208,8 +3207,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: 'This is a car. Humans used them as a means of transportation even though
-    they emitted gases that were poisonous to the environment.
+  storyText: 'This is a car. Humans used them as a means of transportation, even
+    though they emitted gases that were poisonous to the environment.
 
 '
   description: 
@@ -3524,7 +3523,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2046.7764
     y: -46.140778
-    width: 108.28485
+    width: 107.14299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3709,7 +3708,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1959.7146
     y: 87.494286
-    width: 108.28485
+    width: 107.14299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3743,7 +3742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: 'This must be from the year 2022, when Bangladesh got flooded due to
+  storyText: 'This must be from the year 2022, when Bangladesh was flooded due to
     the terrible effects of climate change. At this point some humans were still
     unaware of what was happening and some decided to play ignorance.
 
@@ -4088,7 +4087,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2111.8347
     y: 85.226234
-    width: 97.7612
+    width: 96.42868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4312,7 +4311,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2395.4646
     y: 103.14639
-    width: 97.7612
+    width: 96.42868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4862,7 +4861,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2395.1694
     y: -40.161743
-    width: 95.332664
+    width: 94.64296
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5163,7 +5162,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2239.0894
     y: 23.588287
-    width: 112.33241
+    width: 112.500145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5239,7 +5238,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &302167456
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5264,7 +5263,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &302167457
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5285,7 +5284,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &302167458
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5306,7 +5305,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &302167459
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5320,7 +5319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2577.6194
     y: 20.705963
-    width: 71.85682
+    width: 71.42862
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5334,7 +5333,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &302167460
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5352,7 +5351,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &302167461
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5369,7 +5368,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &302167462
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5386,7 +5385,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &302167463
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
